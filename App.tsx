@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { InputGroup } from './components/InputGroup';
+import { InputGroup } from './InputGroup';
 import { ChartSection } from './components/ChartSection';
 import { SettingsIcon, PrinterIcon, DownloadIcon } from './components/Icons';
 import { calculateQuote, formatCurrency } from './utils/calculations';
