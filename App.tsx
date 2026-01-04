@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { InputGroup } from './InputGroup';
 import { ChartSection } from './ChartSection';
 import { SettingsIcon, PrinterIcon, DownloadIcon } from './Icons';
-import { calculateQuote, formatCurrency } from './utils/calculations';
+import { calculateQuote, formatCurrency } from './calculations';
 import { GlobalConfig, JobDetails } from './types';
 
 // Currency definitions
